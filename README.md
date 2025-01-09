@@ -24,4 +24,4 @@ Players must navigate a dangerous dungeon, solving puzzles and battling enemies 
 ## Installation and Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/MoltoRubato/Past-Projects/The_depths_within.git
+   git clone https://github.com/MoltoRubato/the_depth_within.git
