@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Depths Within</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<h1>The Depths Within</h1>
+			<section id="rules">
+				<h1>Don't let your torch go out, when you get hit your torch will go down one level. You have 3 lives.</h1>
+				<h1>'k' is sword slash
+					'j' is run
+					'wasd' is movement
+				</h1>
+			</section>
+			<section id="rules1">
+				<h1>'R' is reset button. Resets current level. Walk into rocks direction to move it, it can only move once.</h1>
+				<h1>If screen is black 'R' resets the game. You can still play if the game is black, but it is difficult.</h1>
+			</section>
+
+      <div id="game">
+          <canvas id="game_canvas" width="1024" height="768">
+          </canvas>
+      </div>
+		</div>
+		<div class="modal" id="startModal" style="background-color: rgba(0,0,0,0.4)">
+			<div class="modal-content">
+			<div class="modal-header">
+			<h2>The Depths Within</h2>
+			</div>
+			<div class="modal-body">
+			<p>"so coool" Jayden Paine
+    			"THIIIS IIS SSOOOOOO AWESOOOOMMMEEE" Chris Hirst.
+				All art, music and sound are created by Chris, Jayden, Ryan and Kevin.
+			</p>
+			</div>
+			<br>
+			<button id="start">START</button>
+			</div>
+			</div>
+    <div id="sounds">
+		
+		<audio id="outro" autoplay loop>
+			<source src="audio/Outro.mp3" type="audio/mp3">
+		</audio>
+		<audio id="P_M" autoplay loop>
+			<source src="audio/P_M.mp3" type="audio/mp3">
+		</audio>
+		<audio id="F_M" autoplay loop>
+			<source src="audio/Fight_M.mp3" type="audio/mp3">
+		</audio>
+		<audio id="title" preload="auto">
+			<source src="audio/title.wav" type="audio/mp3">
+		</audio>
+		<audio id="rock" preload="auto">
+			<source src="audio/Rock.wav" type="audio/mp3">
+		</audio>
+		<audio id="slime_h" preload="auto">
+			<source src="audio/Slime hurt.m4a" type="audio/mp3">
+		</audio>
+		<audio id="slime_j" preload="auto">
+			<source src="audio/Slime Jump.m4a" type="audio/mp3">
+		</audio>
+		<audio id="sword" preload="auto">
+			<source src="audio/Sword.m4a" type="audio/mp3">
+		</audio>
+		<audio id="walk" preload="auto">
+			<source src="audio/Walk.m4a" type="audio/mp3">
+		</audio>
+		<audio id="door" preload="auto">
+			<source src="audio/Door open.m4a" type="audio/mp3">
+		</audio>
+		<audio id="clear" preload="auto">
+			<source src="audio/Clear Room.mp3" type="audio/mp3">
+		</audio>
+		<audio id="hurt" preload="auto">
+			<source src="audio/Get Hurt.m4a" type="audio/mp3">
+		</audio>
+		
+    </div>
+
+		<script src="jsLib/resources.js"></script>
+    <script src="jsLib/input.js"></script>
+    <script src="jsLib/sprite.js"></script>
+    <script src="jsLib/gameUtils.js"></script>
+
+    <script src="game.js"></script>
+	</body>
+</html>
