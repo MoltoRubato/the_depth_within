@@ -18,7 +18,7 @@ Players must navigate a dangerous dungeon, solving puzzles and battling enemies 
 ## Group Members
 - Kevin Zhong  
 - Chris Hirst  
-- Ryan Huang  
+- Kerui Huang  
 - Jayden Paine  
 
 ## Installation and Setup
